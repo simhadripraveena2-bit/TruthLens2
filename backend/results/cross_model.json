@@ -1,0 +1,48 @@
+{
+  "Gemma 3 4B (primary)": {
+    "status": "evaluated",
+    "accuracy": 0.45,
+    "macro_f1": 0.2142857142857143,
+    "per_class": {
+      "green": {
+        "f1": 0.6428571428571429
+      },
+      "yellow": {
+        "f1": 0.0
+      },
+      "red": {
+        "f1": 0.0
+      }
+    },
+    "prediction_distribution": {
+      "green": 18,
+      "yellow": 2,
+      "red": 0
+    },
+    "speed": {
+      "total_time_sec": 296.9777202999685,
+      "avg_time_per_sample": 14.848886014998424,
+      "samples_per_sec": 0.06734511928975206
+    },
+    "calibration_proxy": 0.45
+  },
+  "Mistral 7B": {
+    "status": "model not available",
+    "install_cmd": "ollama pull mistral"
+  },
+  "LLaMA 3 8B": {
+    "status": "model not available",
+    "install_cmd": "ollama pull llama3"
+  },
+  "summary": {
+    "best_model": "Gemma 3 4B (primary)",
+    "best_macro_f1": 0.2142857142857143,
+    "models_evaluated": [
+      "Gemma 3 4B (primary)"
+    ],
+    "models_skipped": [
+      "Mistral 7B",
+      "LLaMA 3 8B"
+    ]
+  }
+}

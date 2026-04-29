@@ -1,0 +1,103 @@
+\begin{table}[h]
+\centering
+\begin{tabular}{lcc}
+Method & Acc & F1 \\ 
+\hline
+random & 0.280 & 0.258 \\
+keyword & 0.320 & 0.162 \\
+selfcheck_sampling & 0.350 & 0.217 \\
+llm_as_judge & 0.390 & 0.283 \\
+\end{tabular}
+\caption{Table 1: Main results — TruthLens vs baselines}
+\end{table}
+
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lcc}
+Method & Acc & F1 \\ 
+\hline
+full_truthlens & 0.510 & 0.381 \\
+no_consistency & 0.510 & 0.381 \\
+no_domain_prompt & 0.360 & 0.219 \\
+no_confidence & 0.510 & 0.381 \\
+\end{tabular}
+\caption{Table 2: Ablation study results}
+\end{table}
+
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lcc}
+Method & Acc & F1 \\ 
+\hline
+domain-general & 0.000 & 0.000 \\
+\end{tabular}
+\caption{Table 3: Domain breakdown (see ablation results)}
+\end{table}
+
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lcc}
+Method & Acc & F1 \\ 
+\hline
+direct & 0.450 & 0.214 \\
+cot & 0.300 & 0.167 \\
+strict & 0.300 & 0.195 \\
+\end{tabular}
+\caption{Table 4: Prompt sensitivity comparison}
+\end{table}
+
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lcc}
+Method & Acc & F1 \\ 
+\hline
+Gemma 3 4B (primary) & 0.450 & 0.214 \\
+Mistral 7B & 0.000 & 0.000 \\
+LLaMA 3 8B & 0.000 & 0.000 \\
+summary & 0.000 & 0.000 \\
+\end{tabular}
+\caption{Table 5: Cross-model comparison}
+\end{table}
+
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lcc}
+Method & Acc & F1 \\ 
+\hline
+truthlens & 0.000 & 0.000 \\
+random & 0.000 & 0.000 \\
+keyword & 0.000 & 0.000 \\
+summary & 0.000 & 0.000 \\
+\end{tabular}
+\caption{Table 6: Efficiency comparison}
+\end{table}
+
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lcc}
+Method & Acc & F1 \\ 
+\hline
+calibration & 0.150 & 0.270 \\
+\end{tabular}
+\caption{Table 7: Calibration metrics (ECE, Brier Score)}
+\end{table}
+
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lcc}
+Method & Acc & F1 \\ 
+\hline
+random & 0.001 & 0.508 \\
+keyword & 0.006 & 0.395 \\
+selfcheck_sampling & 0.030 & 0.311 \\
+llm_as_judge & 0.165 & 0.198 \\
+\end{tabular}
+\caption{Table 8: Statistical significance (p-values, Cohen's d)}
+\end{table}

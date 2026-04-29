@@ -1,0 +1,302 @@
+{
+  "datasets": {
+    "pminervini/HaluEval": {
+      "per_class": {
+        "green": {
+          "precision": 0.4,
+          "recall": 0.04,
+          "f1": 0.07272727272727272
+        },
+        "red": {
+          "precision": 0.49473684210526314,
+          "recall": 0.94,
+          "f1": 0.6482758620689655
+        }
+      },
+      "overall": {
+        "accuracy": 0.49,
+        "cohen_kappa": -0.020000000000000018,
+        "auc_roc": 0.49,
+        "macro_f1": 0.3605015673981191
+      },
+      "confusion_matrix": [
+        [
+          2,
+          48
+        ],
+        [
+          3,
+          47
+        ]
+      ],
+      "active_labels": [
+        "green",
+        "red"
+      ],
+      "n_samples": 100,
+      "label_distribution": {
+        "ground_truth": {
+          "green": 50,
+          "yellow": 0,
+          "red": 50
+        },
+        "predictions": {
+          "green": 5,
+          "yellow": 0,
+          "red": 95
+        }
+      }
+    },
+    "truthful_qa": {
+      "per_class": {
+        "green": {
+          "precision": 0.8666666666666667,
+          "recall": 0.26,
+          "f1": 0.4
+        },
+        "red": {
+          "precision": 0.5647058823529412,
+          "recall": 0.96,
+          "f1": 0.7111111111111111
+        }
+      },
+      "overall": {
+        "accuracy": 0.61,
+        "cohen_kappa": 0.21999999999999997,
+        "auc_roc": 0.61,
+        "macro_f1": 0.5555555555555556
+      },
+      "confusion_matrix": [
+        [
+          13,
+          37
+        ],
+        [
+          2,
+          48
+        ]
+      ],
+      "active_labels": [
+        "green",
+        "red"
+      ],
+      "n_samples": 100,
+      "label_distribution": {
+        "ground_truth": {
+          "green": 50,
+          "yellow": 0,
+          "red": 50
+        },
+        "predictions": {
+          "green": 15,
+          "yellow": 0,
+          "red": 85
+        }
+      }
+    },
+    "potsawee/wiki_bio_gpt3_hallucination": {
+      "per_class": {
+        "green": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "yellow": {
+          "precision": 1.0,
+          "recall": 0.2972972972972973,
+          "f1": 0.4583333333333333
+        },
+        "red": {
+          "precision": 0.5238095238095238,
+          "recall": 0.9777777777777777,
+          "f1": 0.6821705426356589
+        }
+      },
+      "overall": {
+        "accuracy": 0.55,
+        "cohen_kappa": 0.21369910885899002,
+        "auc_roc": 0.6252525252525253,
+        "macro_f1": 0.38016795865633074
+      },
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          18
+        ],
+        [
+          4,
+          11,
+          22
+        ],
+        [
+          1,
+          0,
+          44
+        ]
+      ],
+      "active_labels": [
+        "green",
+        "yellow",
+        "red"
+      ],
+      "n_samples": 100,
+      "label_distribution": {
+        "ground_truth": {
+          "green": 18,
+          "yellow": 37,
+          "red": 45
+        },
+        "predictions": {
+          "green": 5,
+          "yellow": 11,
+          "red": 84
+        }
+      }
+    }
+  },
+  "overall": {
+    "per_class": {
+      "green": {
+        "precision": 0.6,
+        "recall": 0.1271186440677966,
+        "f1": 0.2097902097902098
+      },
+      "yellow": {
+        "precision": 1.0,
+        "recall": 0.2972972972972973,
+        "f1": 0.4583333333333333
+      },
+      "red": {
+        "precision": 0.5265151515151515,
+        "recall": 0.9586206896551724,
+        "f1": 0.6797066014669927
+      }
+    },
+    "overall": {
+      "accuracy": 0.55,
+      "cohen_kappa": 0.16258296631722602,
+      "auc_roc": 0.5760845383759733,
+      "macro_f1": 0.4492767148635119
+    },
+    "confusion_matrix": [
+      [
+        15,
+        0,
+        103
+      ],
+      [
+        4,
+        11,
+        22
+      ],
+      [
+        6,
+        0,
+        139
+      ]
+    ],
+    "active_labels": [
+      "green",
+      "yellow",
+      "red"
+    ],
+    "n_samples": 300
+  },
+  "overall_label_distribution": {
+    "ground_truth": {
+      "green": 118,
+      "yellow": 37,
+      "red": 145
+    },
+    "predictions": {
+      "green": 25,
+      "yellow": 11,
+      "red": 264
+    }
+  },
+  "calibration": {
+    "ece": 0.15000000000000002,
+    "mce": 0.15000000000000002,
+    "brier_score": 0.2699999999999999,
+    "reliability_diagram": [
+      {
+        "bin": 0,
+        "confidence": 0.0,
+        "accuracy": 0.0,
+        "count": 0
+      },
+      {
+        "bin": 1,
+        "confidence": 0.0,
+        "accuracy": 0.0,
+        "count": 0
+      },
+      {
+        "bin": 2,
+        "confidence": 0.0,
+        "accuracy": 0.0,
+        "count": 0
+      },
+      {
+        "bin": 3,
+        "confidence": 0.0,
+        "accuracy": 0.0,
+        "count": 0
+      },
+      {
+        "bin": 4,
+        "confidence": 0.0,
+        "accuracy": 0.0,
+        "count": 0
+      },
+      {
+        "bin": 5,
+        "confidence": 0.0,
+        "accuracy": 0.0,
+        "count": 0
+      },
+      {
+        "bin": 6,
+        "confidence": 0.7000000000000001,
+        "accuracy": 0.55,
+        "count": 300
+      },
+      {
+        "bin": 7,
+        "confidence": 0.0,
+        "accuracy": 0.0,
+        "count": 0
+      },
+      {
+        "bin": 8,
+        "confidence": 0.0,
+        "accuracy": 0.0,
+        "count": 0
+      },
+      {
+        "bin": 9,
+        "confidence": 0.0,
+        "accuracy": 0.0,
+        "count": 0
+      }
+    ]
+  },
+  "hypotheses": {
+    "H1": "pending \u2014 compare with baselines",
+    "H2": "confirmed",
+    "H3": "pending \u2014 run ablation study",
+    "H4": "confirmed",
+    "notes": {
+      "H2_accuracy": 0.55,
+      "H2_macro_f1": 0.4492767148635119,
+      "H4_ece": 0.15000000000000002,
+      "H4_mce": 0.15000000000000002,
+      "interpretation": {
+        "H2": "Accuracy 0.550 \u2265 0.5 threshold",
+        "H4": "ECE 0.150 < 0.2 threshold"
+      }
+    }
+  },
+  "samples_evaluated": 300
+}

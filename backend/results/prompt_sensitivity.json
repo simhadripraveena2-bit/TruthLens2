@@ -1,0 +1,36 @@
+{
+  "direct": {
+    "accuracy": 0.45,
+    "macro_f1": 0.2142857142857143,
+    "avg_response_time_sec": 15.783666249993257,
+    "total_time_sec": 315.67332499986514,
+    "prediction_distribution": {
+      "green": 18,
+      "yellow": 2,
+      "red": 0
+    }
+  },
+  "cot": {
+    "accuracy": 0.3,
+    "macro_f1": 0.16666666666666666,
+    "avg_response_time_sec": 20.72755695999367,
+    "total_time_sec": 414.55113919987343,
+    "prediction_distribution": {
+      "green": 14,
+      "yellow": 5,
+      "red": 1
+    }
+  },
+  "strict": {
+    "accuracy": 0.3,
+    "macro_f1": 0.19528619528619529,
+    "avg_response_time_sec": 18.746187190001365,
+    "total_time_sec": 374.9237438000273,
+    "prediction_distribution": {
+      "green": 12,
+      "yellow": 0,
+      "red": 8
+    }
+  },
+  "best_strategy": "direct"
+}

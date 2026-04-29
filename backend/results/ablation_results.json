@@ -1,0 +1,22 @@
+{
+  "full_truthlens": {
+    "accuracy": 0.51,
+    "macro_f1": 0.3810876623376623
+  },
+  "no_consistency": {
+    "accuracy": 0.51,
+    "macro_f1": 0.3810876623376623
+  },
+  "no_domain_prompt": {
+    "accuracy": 0.36,
+    "macro_f1": 0.21932870370370372
+  },
+  "no_confidence": {
+    "accuracy": 0.51,
+    "macro_f1": 0.3810876623376623
+  },
+  "hypothesis_tests": {
+    "H2": "confirmed",
+    "H3": "confirmed"
+  }
+}

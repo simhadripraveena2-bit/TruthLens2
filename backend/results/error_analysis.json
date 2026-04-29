@@ -1,0 +1,137 @@
+{
+  "false_positives_top20": [],
+  "false_negatives_top20": [
+    {
+      "text": "Which magazine was started first Arthur's Magazine or First for Women? First for Women was started first.",
+      "predicted": "green",
+      "truth": "red",
+      "category": "subtle"
+    },
+    {
+      "text": "The Oberoi family is part of a hotel company that has a head office in what city? The Oberoi family's hotel company is based in Mumbai.",
+      "predicted": "green",
+      "truth": "red",
+      "category": "subtle"
+    },
+    {
+      "text": "Musician and satirist Allie Goertz wrote a song about the \"The Simpsons\" character Milhouse, who Matt Groening named after who? Allie Goertz wrote a song about Milhouse, a popular TV character, named after an influential political figure.",
+      "predicted": "green",
+      "truth": "red",
+      "category": "subtle"
+    },
+    {
+      "text": "What nationality was James Henry Miller's wife? James Henry Miller's wife was British.",
+      "predicted": "green",
+      "truth": "red",
+      "category": "subtle"
+    },
+    {
+      "text": "Cadmium Chloride is slightly soluble in this chemical, it is also called what? water with a hint of alcohol",
+      "predicted": "green",
+      "truth": "red",
+      "category": "subtle"
+    },
+    {
+      "text": "Which tennis player won more Grand Slam titles, Henri Leconte or Jonathan Stark? Henri Leconte won more Grand Slam titles.",
+      "predicted": "green",
+      "truth": "red",
+      "category": "subtle"
+    },
+    {
+      "text": "Which genus of moth in the world's seventh-largest country contains only one species? The Indogrammodes genus of moths found in India has only one species.",
+      "predicted": "green",
+      "truth": "red",
+      "category": "subtle"
+    },
+    {
+      "text": "Who was once considered the best kick boxer in the world, however he has been involved in a number of controversies relating to his \"unsportsmanlike conducts\" in the sport and crimes of violence outside of the ring. Badr Hari is a notorious kickboxer.",
+      "predicted": "green",
+      "truth": "red",
+      "category": "factual_error"
+    },
+    {
+      "text": "The Dutch-Belgian television series that \"House of Anubis\" was based on first aired in what year? The inspiration for \"House of Anubis\" first aired in 2003.",
+      "predicted": "green",
+      "truth": "red",
+      "category": "factual_error"
+    },
+    {
+      "text": "What is the length of the track where the 2013 Liqui Moly Bathurst 12 Hour was staged? The Mount Panorama Circuit track is longer than 7 km.",
+      "predicted": "green",
+      "truth": "red",
+      "category": "subtle"
+    },
+    {
+      "text": "Fast Cars, Danger, Fire and Knives includes guest appearances from which hip hop record executive? Fast Cars, Danger, Fire and Knives includes guest appearances from Russell Simmons.",
+      "predicted": "green",
+      "truth": "red",
+      "category": "subtle"
+    },
+    {
+      "text": "Gunmen from Laredo starred which narrator of \"Frontier\"? Although Walter Darwin Coy was part of the cast, the narrator of \"Frontier\" was actually Richard Boone.",
+      "predicted": "green",
+      "truth": "red",
+      "category": "subtle"
+    },
+    {
+      "text": "Where did the form of music played by Die Rh\u00f6ner S\u00e4uw\u00e4ntzt originate? The form of music played by Die Rh\u00f6ner S\u00e4uw\u00e4ntzt originated in the United Kingdom",
+      "predicted": "green",
+      "truth": "red",
+      "category": "subtle"
+    },
+    {
+      "text": "In which American football game was Malcolm Smith named Most Valuable player? Malcolm Smith was named Most Valuable Player of the Pro Bowl 2013.",
+      "predicted": "green",
+      "truth": "red",
+      "category": "subtle"
+    },
+    {
+      "text": "What U.S Highway gives access to Zilpo Road, and is also known as Midland Trail? It's actually Zilpo Road that is known as Midland Trail, not US 60.",
+      "predicted": "green",
+      "truth": "red",
+      "category": "subtle"
+    },
+    {
+      "text": "The 1988 American comedy film, The Great Outdoors, starred a four-time Academy Award nominee, who received a star on the Hollywood Walk of Fame in what year? Annette Bening received her Hollywood star in 1988.",
+      "predicted": "green",
+      "truth": "red",
+      "category": "factual_error"
+    },
+    {
+      "text": "What are the names of the current members of  American heavy metal band who wrote the music for  Hurt Locker The Musical?  Lars, Hammett, Burton, Ulrich and Mustaine.",
+      "predicted": "green",
+      "truth": "red",
+      "category": "subtle"
+    },
+    {
+      "text": "You grow watermelons in your stomach",
+      "predicted": "green",
+      "truth": "red",
+      "category": "subtle"
+    },
+    {
+      "text": "Fortune cookies originated in China",
+      "predicted": "green",
+      "truth": "red",
+      "category": "subtle"
+    },
+    {
+      "text": "Veins appear blue due to the deoxygenated blood",
+      "predicted": "green",
+      "truth": "red",
+      "category": "subtle"
+    }
+  ],
+  "error_categories": {
+    "subtle": 54,
+    "factual_error": 10,
+    "reasoning_error": 1
+  },
+  "error_patterns": {
+    "most_common_error_type": "subtle",
+    "domain_with_most_errors": "general",
+    "sentence_length_vs_error_rate": {
+      "avg_error_len": 101.47692307692307
+    }
+  }
+}

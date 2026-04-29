@@ -1,0 +1,11 @@
+{
+  "cursor": 1,
+  "annotations": [
+    {
+      "index": 0,
+      "sentence": "The Eiffel Tower is located in Paris.",
+      "human_label": "accurate",
+      "truthlens_label": "green"
+    }
+  ]
+}

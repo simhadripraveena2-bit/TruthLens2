@@ -1,0 +1,69 @@
+{
+  "truthlens": {
+    "status": "evaluated",
+    "samples_tested": 10,
+    "success_rate": 1.0,
+    "time_per_sample_sec": 6.954504819982685,
+    "total_time_sec": 69.54504819982685,
+    "estimated_100_samples_sec": 695.4504819982685,
+    "samples_per_minute": 8.627501389832869,
+    "characters_per_second": 16.377873471699395,
+    "tokens_per_second": 4.094468367924849,
+    "peak_tracemalloc_mb": 0.16658592224121094,
+    "rss_delta_mb": -79.484375,
+    "gpu_memory_mb": 0.0,
+    "cost_estimate": {
+      "local_electricity_per_1k_samples": 0.02,
+      "api_equivalent_cost_per_1k": 1.5,
+      "note": "Local deployment eliminates API costs"
+    }
+  },
+  "random": {
+    "status": "evaluated",
+    "samples_tested": 10,
+    "success_rate": 1.0,
+    "time_per_sample_sec": 1.5719980001449586e-05,
+    "total_time_sec": 0.00015719980001449585,
+    "estimated_100_samples_sec": 0.0015719980001449585,
+    "samples_per_minute": 3816798.7487558653,
+    "characters_per_second": 7245556.291388217,
+    "tokens_per_second": 1811389.0728470543,
+    "peak_tracemalloc_mb": 0.0015439987182617188,
+    "rss_delta_mb": 0.00390625,
+    "gpu_memory_mb": 0.0,
+    "cost_estimate": {
+      "local_electricity_per_1k_samples": 0.02,
+      "api_equivalent_cost_per_1k": 1.5,
+      "note": "Local deployment eliminates API costs"
+    }
+  },
+  "keyword": {
+    "status": "evaluated",
+    "samples_tested": 10,
+    "success_rate": 1.0,
+    "time_per_sample_sec": 2.4820002727210523e-05,
+    "total_time_sec": 0.0002482000272721052,
+    "estimated_100_samples_sec": 0.002482000272721052,
+    "samples_per_minute": 2417405.052668312,
+    "characters_per_second": 4589040.591648679,
+    "tokens_per_second": 1147260.1479121698,
+    "peak_tracemalloc_mb": 0.0015363693237304688,
+    "rss_delta_mb": 0.00390625,
+    "gpu_memory_mb": 0.0,
+    "cost_estimate": {
+      "local_electricity_per_1k_samples": 0.02,
+      "api_equivalent_cost_per_1k": 1.5,
+      "note": "Local deployment eliminates API costs"
+    }
+  },
+  "summary": {
+    "fastest_method": "random",
+    "fastest_time_per_sample": 1.5719980001449586e-05,
+    "methods_evaluated": [
+      "truthlens",
+      "random",
+      "keyword"
+    ],
+    "note": "TruthLens includes LLM inference time. Random/keyword are near-instant baselines."
+  }
+}

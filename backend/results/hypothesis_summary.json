@@ -1,0 +1,12 @@
+{
+  "H1": "rejected",
+  "H2": "confirmed",
+  "H3": "confirmed",
+  "H4": "confirmed",
+  "notes": {
+    "H1": "TruthLens acc=0.550 vs LLM-judge F1=0.283",
+    "H2": "Multi-sample consistency vs single-pass",
+    "H3": "Domain-aware vs generic prompting",
+    "H4": "ECE=0.150"
+  }
+}

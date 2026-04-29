@@ -1,0 +1,30 @@
+{
+  "seed": 42,
+  "model": "gemma3:4b",
+  "model_version": "local-ollama",
+  "dataset_versions": {
+    "HaluEval": "pminervini/HaluEval@qa",
+    "TruthfulQA": "truthful_qa@generation",
+    "SelfCheckGPT": "potsawee/wiki_bio_gpt3_hallucination"
+  },
+  "prompts_used": {
+    "main": "TruthLens strict fact-checker prompt",
+    "judge": "Accurate/Uncertain/Hallucinated"
+  },
+  "dataset_splits": {
+    "HaluEval": "data[:50]",
+    "TruthfulQA": "validation[:50]",
+    "SelfCheckGPT": "evaluation[:50]"
+  },
+  "timestamp": "2026-04-29T06:04:07.852583+00:00",
+  "hardware": {
+    "cpu": "Intel64 Family 6 Model 154 Stepping 4, GenuineIntel",
+    "ram_gb": 15.68,
+    "gpu": "none"
+  },
+  "library_versions": {
+    "transformers": "4.52.4",
+    "torch": "2.9.0",
+    "datasets": "4.8.4"
+  }
+}
